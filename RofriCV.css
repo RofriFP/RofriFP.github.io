@@ -104,22 +104,13 @@ body{
   }
 
 #submit {
-    position: relative;
     width: 150px;
-    display: inline-block;
     height: 30px;
     background: rgb(177, 172, 248);
-    margin-right: 40px;
-    margin-left: 40px;
 }
 
 .transparent-input{
     background-color:transparent;
-}
-
- #submit {
-     margin-right: 0px;
-     margin-left: 250px;
 }
 
 /* SKILL BAR */
