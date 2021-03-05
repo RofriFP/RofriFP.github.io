@@ -50,9 +50,9 @@
 <!-- NAVIGATION BAR -->
 
 
-        <nav class=" fixed-top navbar navbar-expand-xs navbar-toggler-right navbar-light">
+        <nav class="fixed-top navbar navbar-expand-xs navbar-toggler-right navbar-light">
             <a class="navbar-brand" href="#title"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="bg-transparent navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation" id="navtop">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -147,9 +147,9 @@
     <section>
 
         <div class="container-fluid" id="jobedu">
-                <H1 class="display-4 text-center mb-5"><b class="text-secondary" style="font-family: montserrat;">EXPERIENCE</b></H1>
                 <div class="row">
-                    <div class="col-md-1" id="carmudi"></div>
+                    <H1 class="container-fluid display-4 text-center mt-0 mb-5"><b class="text-secondary" style="font-family: montserrat;" id="jobedu">EXPERIENCE</b></H1>
+
                     <div class="col-md-5 ml-5" id="carmudi">
                         <h4 class="my-2">2017-2020</h4>
                         <h4 class="my-2">Carmudi Indonesia</h4>
@@ -168,7 +168,6 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-1" id="carmudi"></div>
                     <div class="col-md-5 ml-5" id="MAF">
                         <h4 class="my-2">2015-2016</h4>
                         <h4 class="my-2">PT. Mega Auto Central Finance</h4>
@@ -188,8 +187,8 @@
                 </div>
     <br><br>
 
-                <H1 class="container-fluid display-4 text-center mt-0 mb-5"><b class="text-secondary" style="font-family: montserrat;" id="education">EDUCATION</b></H1>
             <div class="row">
+                <H1 class="container-fluid display-4 text-center mt-0 mb-5"><b class="text-secondary" style="font-family: montserrat;" id="education">EDUCATION</b></H1>
                 <div class="col-md-1" id="carmudi"></div>
                 <div class="col-md-5 ml-5" id="carmudi">
                     <h4 class="my-2">2014-2009</h4>
@@ -240,11 +239,11 @@
 
 <!-- SKILLS -->
 
-    <section class="container-fluid" style="background-image: url(img/rare-old-books.png); width: 100%;"  id="skills">
-
-        <H1 class="text-center display-4 text-info mb-0">MY SKILLS</H1>
+    <section class="container-fluid" style="background-image: url(img/rare-old-books.png); width: 100%;">
 
         <div class="row mt-0 text-light">
+            <H1 class="container-fluid display-4 text-center mt-0 mb-5"><b class="text-secondary" style="font-family: montserrat;" id="skills">MY SKILLS</b></H1>
+
 
             <div class="skills col-md-6 col-sm-6 mt-1">
                 <li>
@@ -307,20 +306,20 @@
 
     <div class="container-fluid colored-section" id="form">
         <H1 class="text-center display-4 text-info">CONTACT ME</H1> <BR></BR>
-        <form action="https://formspree.io/rofripelenkahu@gmail.com" method="post" name="contact">
-            <div class="form-group row">
-                <div class="col-md-7 col-sm-7 contact-left">
-                    <input class="form-control transparent-input border border-white" type="text" name="name" placeholder="Name" required="required"><br>
-                    <input class="form-control transparent-input" type="text" name="Subject" placeholder="Subject" required="required"><br>
-                    <input class="form-control transparent-input mb-4" type="email" class="email" name="_replyto" placeholder="Email" required="required">
-                </div>
-                <div class="col-md-5 col-sm-5 contact-right">
-                <textarea class="form-control transparent-input" id="textarea" name="Message" placeholder="Message" required=""></textarea><br>
-                <input type="submit" value="Send" id="submit" class="">
-                </div>
-                <div class="clearfix"> </div>
-            </div>
-        </form>
+
+            <form action="https://formspree.io/rofripelenkahu@gmail.com" method="post" name="contact">
+                <div class="form-group row">
+                    <div class="col-md-6 col-sm-6 contact-left">
+                        <input class="form-control transparent-input border border-white" type="text" name="name" placeholder="Name" required="required"><br>
+                        <input class="form-control transparent-input" type="text" name="Subject" placeholder="Subject" required="required"><br>
+                        <input class="form-control transparent-input mb-4" type="email" class="email" name="_replyto" placeholder="Email" required="required">
+                    </div>
+                    <div class="col-md-6 col-sm-6 contact-left">
+                    <textarea class="form-control transparent-input border border-white" id="textarea" name="Message" placeholder="Message" required="required"></textarea><br>
+                    <input type="submit" value="Send" id="submit" class="mr-5 submit rounded-pill">
+                    <div class="clearfix"> </div></div>
+            </form>
+        </div>
     </div>
 
 
