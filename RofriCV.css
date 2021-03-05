@@ -99,7 +99,7 @@ body{
 }
 
 #textarea {
-    width: 400px;
+    width: 400;
     height: 160px;
   }
 
@@ -112,6 +112,7 @@ body{
 .transparent-input{
     background-color:transparent;
 }
+
 
 /* SKILL BAR */
 
