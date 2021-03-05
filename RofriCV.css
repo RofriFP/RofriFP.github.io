@@ -35,7 +35,7 @@ body{
   }
 
 .tes {
-    position: absolute;
+    position: fixed;
     right: 32px;
     top: 50px;
 }
